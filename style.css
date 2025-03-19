@@ -1,0 +1,52 @@
+body {
+       font-family: Arial, sans-serif;
+       margin: 0;
+       padding: 0;
+       background-color: #f4f4f4;
+       color: #333;
+   }
+
+   .container {
+       width: 80%;
+       margin: auto;
+       overflow: hidden;
+   }
+
+   header {
+       background: #333;
+       color: #fff;
+       padding-top: 30px;
+       min-height: 70px;
+       border-bottom: #77aaff 3px solid;
+   }
+
+   header h1 {
+       text-align: center;
+       margin: 0;
+       font-size: 36px;
+   }
+
+   header p {
+       text-align: center;
+       font-size: 18px;
+   }
+
+   #about, #skills, #projects, #contact {
+       padding: 20px 0;
+   }
+
+   .profile-img {
+       display: block;
+       margin: 20px auto;
+       border-radius: 50%;
+       width: 150px;
+       height: 150px;
+   }
+
+   footer {
+       background: #333;
+       color: #fff;
+       text-align: center;
+       padding: 10px 0;
+       margin-top: 20px;
+   }
